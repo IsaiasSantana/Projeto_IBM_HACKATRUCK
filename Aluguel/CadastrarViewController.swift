@@ -19,6 +19,12 @@ class CadastrarViewController: UIViewController {
         }
     }
     
+    override func viewDidLoad() {
+        
+        // performSegue(withIdentifier: <#T##String#>, sender: <#T##Any?#>)
+        
+        
+    }
 
 }
 extension CadastrarViewController: UIPickerViewDataSource, UIPickerViewDelegate {
