@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F42E03B1E51CEAC00A5EB31 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F42E03A1E51CEAC00A5EB31 /* Usuario.swift */; };
+		3F42E03D1E51D62600A5EB31 /* Imovel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F42E03C1E51D62600A5EB31 /* Imovel.swift */; };
+		3F42E03F1E51D7D600A5EB31 /* Endereco.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F42E03E1E51D7D600A5EB31 /* Endereco.swift */; };
 		3F7F9AE31E4B52EA00D8A090 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7F9AE21E4B52EA00D8A090 /* AppDelegate.swift */; };
 		3F7F9AE81E4B52EA00D8A090 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7F9AE61E4B52EA00D8A090 /* Main.storyboard */; };
 		3F7F9AEA1E4B52EA00D8A090 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7F9AE91E4B52EA00D8A090 /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F42E03A1E51CEAC00A5EB31 /* Usuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		3F42E03C1E51D62600A5EB31 /* Imovel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Imovel.swift; sourceTree = "<group>"; };
+		3F42E03E1E51D7D600A5EB31 /* Endereco.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endereco.swift; sourceTree = "<group>"; };
 		3F7F9ADF1E4B52EA00D8A090 /* Aluguel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aluguel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F7F9AE21E4B52EA00D8A090 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F7F9AE71E4B52EA00D8A090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -33,6 +39,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F42E0391E51CE7800A5EB31 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				3F42E03A1E51CEAC00A5EB31 /* Usuario.swift */,
+				3F42E03C1E51D62600A5EB31 /* Imovel.swift */,
+				3F42E03E1E51D7D600A5EB31 /* Endereco.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
 		3F7F9AD61E4B52EA00D8A090 = {
 			isa = PBXGroup;
 			children = (
@@ -52,6 +68,7 @@
 		3F7F9AE11E4B52EA00D8A090 /* Aluguel */ = {
 			isa = PBXGroup;
 			children = (
+				3F42E0391E51CE7800A5EB31 /* model */,
 				3F7F9AE21E4B52EA00D8A090 /* AppDelegate.swift */,
 				3F7F9AE61E4B52EA00D8A090 /* Main.storyboard */,
 				3F7F9AE91E4B52EA00D8A090 /* Assets.xcassets */,
@@ -133,7 +150,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F42E03B1E51CEAC00A5EB31 /* Usuario.swift in Sources */,
 				3F7F9AE31E4B52EA00D8A090 /* AppDelegate.swift in Sources */,
+				3F42E03F1E51D7D600A5EB31 /* Endereco.swift in Sources */,
+				3F42E03D1E51D62600A5EB31 /* Imovel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +315,7 @@
 				3F7F9AF31E4B52EA00D8A090 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
