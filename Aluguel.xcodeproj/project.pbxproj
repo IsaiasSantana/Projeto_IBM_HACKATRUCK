@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F2E6AF51E51DE81005E56B7 /* CadastrarAnuncioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E6AF41E51DE81005E56B7 /* CadastrarAnuncioViewController.swift */; };
 		3F42E03B1E51CEAC00A5EB31 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F42E03A1E51CEAC00A5EB31 /* Usuario.swift */; };
 		3F42E03D1E51D62600A5EB31 /* Imovel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F42E03C1E51D62600A5EB31 /* Imovel.swift */; };
 		3F42E03F1E51D7D600A5EB31 /* Endereco.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F42E03E1E51D7D600A5EB31 /* Endereco.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F2E6AF41E51DE81005E56B7 /* CadastrarAnuncioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CadastrarAnuncioViewController.swift; path = ../../Aluguel/Aluguel/CadastrarAnuncioViewController.swift; sourceTree = "<group>"; };
 		3F42E03A1E51CEAC00A5EB31 /* Usuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
 		3F42E03C1E51D62600A5EB31 /* Imovel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Imovel.swift; sourceTree = "<group>"; };
 		3F42E03E1E51D7D600A5EB31 /* Endereco.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endereco.swift; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F2E6AF61E51DE92005E56B7 /* controll */ = {
+			isa = PBXGroup;
+			children = (
+				3F2E6AF41E51DE81005E56B7 /* CadastrarAnuncioViewController.swift */,
+			);
+			name = controll;
+			sourceTree = "<group>";
+		};
 		3F42E0391E51CE7800A5EB31 /* model */ = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +78,7 @@
 		3F7F9AE11E4B52EA00D8A090 /* Aluguel */ = {
 			isa = PBXGroup;
 			children = (
+				3F2E6AF61E51DE92005E56B7 /* controll */,
 				3F42E0391E51CE7800A5EB31 /* model */,
 				3F7F9AE21E4B52EA00D8A090 /* AppDelegate.swift */,
 				3F7F9AE61E4B52EA00D8A090 /* Main.storyboard */,
@@ -154,6 +165,7 @@
 				3F7F9AE31E4B52EA00D8A090 /* AppDelegate.swift in Sources */,
 				3F42E03F1E51D7D600A5EB31 /* Endereco.swift in Sources */,
 				3F42E03D1E51D62600A5EB31 /* Imovel.swift in Sources */,
+				3F2E6AF51E51DE81005E56B7 /* CadastrarAnuncioViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
