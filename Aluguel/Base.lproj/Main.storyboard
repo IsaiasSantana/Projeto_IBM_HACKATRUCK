@@ -186,7 +186,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="84"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xf2-6E-jCd" id="S5j-Ll-YIn">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="83"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="83.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fdW-DL-q0o">
@@ -265,7 +265,7 @@
         <!--Alugue AI-->
         <scene sceneID="ZdS-it-woG">
             <objects>
-                <viewController id="zn0-T3-5fK" customClass="CadastrarAnuncioViewController" customModule="Aluguel" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="zn0-T3-5fK" customClass="CadastrarViewController" customModule="Aluguel" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xRQ-V3-3Jn"/>
                         <viewControllerLayoutGuide type="bottom" id="azZ-uT-OwG"/>
@@ -365,7 +365,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Alugue AI" id="wAj-xV-Ypg"/>
                     <connections>
-                        <outlet property="pickerView" destination="vLr-C6-ZCl" id="a36-CG-P4p"/>
+                        <outlet property="pickerView" destination="vLr-C6-ZCl" id="KW9-J9-khn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F8f-zd-oj9" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -10,24 +10,24 @@
 		3F42E03B1E51CEAC00A5EB31 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F42E03A1E51CEAC00A5EB31 /* Usuario.swift */; };
 		3F42E03D1E51D62600A5EB31 /* Imovel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F42E03C1E51D62600A5EB31 /* Imovel.swift */; };
 		3F42E03F1E51D7D600A5EB31 /* Endereco.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F42E03E1E51D7D600A5EB31 /* Endereco.swift */; };
+		3F4BD3FA1E51E8DD00E2EF0D /* CadastrarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4BD3F91E51E8DD00E2EF0D /* CadastrarViewController.swift */; };
 		3F7F9AE31E4B52EA00D8A090 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7F9AE21E4B52EA00D8A090 /* AppDelegate.swift */; };
 		3F7F9AE81E4B52EA00D8A090 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7F9AE61E4B52EA00D8A090 /* Main.storyboard */; };
 		3F7F9AEA1E4B52EA00D8A090 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7F9AE91E4B52EA00D8A090 /* Assets.xcassets */; };
 		3F7F9AED1E4B52EA00D8A090 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7F9AEB1E4B52EA00D8A090 /* LaunchScreen.storyboard */; };
-		3FFE26811E51E447003D16F6 /* CadastrarAnuncioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE26801E51E447003D16F6 /* CadastrarAnuncioViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3F42E03A1E51CEAC00A5EB31 /* Usuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
 		3F42E03C1E51D62600A5EB31 /* Imovel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Imovel.swift; sourceTree = "<group>"; };
 		3F42E03E1E51D7D600A5EB31 /* Endereco.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endereco.swift; sourceTree = "<group>"; };
+		3F4BD3F91E51E8DD00E2EF0D /* CadastrarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CadastrarViewController.swift; sourceTree = "<group>"; };
 		3F7F9ADF1E4B52EA00D8A090 /* Aluguel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aluguel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F7F9AE21E4B52EA00D8A090 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F7F9AE71E4B52EA00D8A090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F7F9AE91E4B52EA00D8A090 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F7F9AEC1E4B52EA00D8A090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F7F9AEE1E4B52EA00D8A090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3FFE26801E51E447003D16F6 /* CadastrarAnuncioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CadastrarAnuncioViewController.swift; path = ../../../alkxyly/Aluguel/Aluguel/CadastrarAnuncioViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +84,7 @@
 		3FFE26821E51E44C003D16F6 /* controll */ = {
 			isa = PBXGroup;
 			children = (
-				3FFE26801E51E447003D16F6 /* CadastrarAnuncioViewController.swift */,
+				3F4BD3F91E51E8DD00E2EF0D /* CadastrarViewController.swift */,
 			);
 			name = controll;
 			sourceTree = "<group>";
@@ -165,7 +165,7 @@
 				3F7F9AE31E4B52EA00D8A090 /* AppDelegate.swift in Sources */,
 				3F42E03F1E51D7D600A5EB31 /* Endereco.swift in Sources */,
 				3F42E03D1E51D62600A5EB31 /* Imovel.swift in Sources */,
-				3FFE26811E51E447003D16F6 /* CadastrarAnuncioViewController.swift in Sources */,
+				3F4BD3FA1E51E8DD00E2EF0D /* CadastrarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
