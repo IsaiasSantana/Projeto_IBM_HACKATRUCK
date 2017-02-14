@@ -362,7 +362,7 @@
         <!--Anuncio de quarto-->
         <scene sceneID="zar-8d-H5g">
             <objects>
-                <viewController id="Oo1-QD-x2f" sceneMemberID="viewController">
+                <viewController id="Oo1-QD-x2f" customClass="CadastroQuartoViewController" customModule="Aluguel" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4ZJ-ML-Fk5"/>
                         <viewControllerLayoutGuide type="bottom" id="D4O-NZ-a1K"/>
@@ -477,7 +477,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aj0-gx-w5u">
-                                <rect key="frame" x="103" y="64" width="256" height="39"/>
+                                <rect key="frame" x="103" y="64" width="256" height="48"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </pickerView>
                         </subviews>
@@ -486,6 +486,9 @@
                     <navigationItem key="navigationItem" title="Anuncio de quarto" id="htY-I8-y8Y">
                         <barButtonItem key="rightBarButtonItem" title="Anunciar" id="Pcv-mw-CV1"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="pickerView" destination="aj0-gx-w5u" id="4tw-Fj-Msv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rq6-ig-gWT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
