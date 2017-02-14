@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F1337F51E534C2900B0A655 /* AnuncioDetalhesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1337F11E534C2900B0A655 /* AnuncioDetalhesViewController.swift */; };
+		3F1337F61E534C2900B0A655 /* AnunciosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1337F21E534C2900B0A655 /* AnunciosViewController.swift */; };
+		3F1337F71E534C2900B0A655 /* AnuncioTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1337F31E534C2900B0A655 /* AnuncioTableCell.swift */; };
+		3F1337F81E534C2900B0A655 /* CriarContaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1337F41E534C2900B0A655 /* CriarContaViewController.swift */; };
 		3F2C65211E5334D30001BCAD /* CadastroQuartoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2C65201E5334D30001BCAD /* CadastroQuartoViewController.swift */; };
 		3F3CE6951E51EB77001C22F0 /* ImovelCompleto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3CE6941E51EB77001C22F0 /* ImovelCompleto.swift */; };
 		3F3CE6971E51EB83001C22F0 /* ImovelQuarto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3CE6961E51EB83001C22F0 /* ImovelQuarto.swift */; };
@@ -21,6 +25,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F1337F11E534C2900B0A655 /* AnuncioDetalhesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnuncioDetalhesViewController.swift; sourceTree = "<group>"; };
+		3F1337F21E534C2900B0A655 /* AnunciosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnunciosViewController.swift; sourceTree = "<group>"; };
+		3F1337F31E534C2900B0A655 /* AnuncioTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnuncioTableCell.swift; sourceTree = "<group>"; };
+		3F1337F41E534C2900B0A655 /* CriarContaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CriarContaViewController.swift; sourceTree = "<group>"; };
 		3F2C65201E5334D30001BCAD /* CadastroQuartoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CadastroQuartoViewController.swift; sourceTree = "<group>"; };
 		3F3CE6941E51EB77001C22F0 /* ImovelCompleto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImovelCompleto.swift; sourceTree = "<group>"; };
 		3F3CE6961E51EB83001C22F0 /* ImovelQuarto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImovelQuarto.swift; sourceTree = "<group>"; };
@@ -92,6 +100,10 @@
 		3FFE26821E51E44C003D16F6 /* controll */ = {
 			isa = PBXGroup;
 			children = (
+				3F1337F11E534C2900B0A655 /* AnuncioDetalhesViewController.swift */,
+				3F1337F21E534C2900B0A655 /* AnunciosViewController.swift */,
+				3F1337F31E534C2900B0A655 /* AnuncioTableCell.swift */,
+				3F1337F41E534C2900B0A655 /* CriarContaViewController.swift */,
 				3F4BD3F91E51E8DD00E2EF0D /* CadastrarViewController.swift */,
 				3F2C65201E5334D30001BCAD /* CadastroQuartoViewController.swift */,
 			);
@@ -171,10 +183,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F42E03B1E51CEAC00A5EB31 /* Usuario.swift in Sources */,
+				3F1337F51E534C2900B0A655 /* AnuncioDetalhesViewController.swift in Sources */,
+				3F1337F81E534C2900B0A655 /* CriarContaViewController.swift in Sources */,
 				3F7F9AE31E4B52EA00D8A090 /* AppDelegate.swift in Sources */,
 				3F42E03F1E51D7D600A5EB31 /* Endereco.swift in Sources */,
+				3F1337F71E534C2900B0A655 /* AnuncioTableCell.swift in Sources */,
 				3F42E03D1E51D62600A5EB31 /* Imovel.swift in Sources */,
 				3F3CE6971E51EB83001C22F0 /* ImovelQuarto.swift in Sources */,
+				3F1337F61E534C2900B0A655 /* AnunciosViewController.swift in Sources */,
 				3F2C65211E5334D30001BCAD /* CadastroQuartoViewController.swift in Sources */,
 				3F3CE6951E51EB77001C22F0 /* ImovelCompleto.swift in Sources */,
 				3F4BD3FA1E51E8DD00E2EF0D /* CadastrarViewController.swift in Sources */,

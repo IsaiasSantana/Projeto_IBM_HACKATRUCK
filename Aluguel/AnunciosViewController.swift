@@ -38,7 +38,7 @@ class AnunciosViewController: UITableViewController{
         
         if segue.identifier == "mostrarDetalhesAnuncio" {
             
-            /*if let novaView = segue.destination as? AnuncioDetalhesViewController{
+            if let novaView = segue.destination as? AnuncioDetalhesViewController{
                 
                 
                 if let linha = tableView.indexPathForSelectedRow?.row {
@@ -47,8 +47,9 @@ class AnunciosViewController: UITableViewController{
                 
                 }
              
-            */
+            
         }
     }
 
+  }
 }
