@@ -11,7 +11,7 @@ import UIKit
 class CadastroQuartoViewController: UIViewController {
     
     let nomes = ["Masculino","Feminino"]
-    
+    //comentario
     @IBOutlet weak var pickerView: UIPickerView!{
         didSet{
         pickerView.dataSource = self
