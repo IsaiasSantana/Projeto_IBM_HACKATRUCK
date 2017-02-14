@@ -14,7 +14,7 @@ class ImovelCompleto:Imovel {
     var qntSuites: Int?
     var qntVagasGaragem:Int?
     
-    init(tipoImovel: String?, endereco: Endereco?, dono:Usuario?, valorAluguel:Float? , qntQuartos:Int?, qntSuites:Int?, qntVagasGaragem:Int?) {
+    init(_ tipoImovel: String?,_ endereco: Endereco?,_ dono:Usuario?,_ valorAluguel:Float? ,_ qntQuartos:Int?,_ qntSuites:Int?,_ qntVagasGaragem:Int?) {
         // redirect to superclass Imovel
         self.qntQuartos = qntQuartos
         self.qntSuites = qntSuites
