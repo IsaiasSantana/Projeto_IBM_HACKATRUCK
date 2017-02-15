@@ -8,18 +8,21 @@
 
 import Foundation
 
-class ImovelQuarto: Imovel {
+/**
+ * @Author IsaíasSantana
+ */
+class ImovelQuarto : Imovel
+{
     
-    var sexo: String?
+    var vagaDestino: String?
     var descricaoPessoal: String?
     
-    init(_ tipoDoImovel: String?,_ endereco: Endereco?,_ dono: Usuario?,_ valorAluguel: Float?,
-         sexo: String?, descricaoPessoal: String?) {
+    init(_ tipoDoImovel: String?,_ endereco: Endereco?,_ dono: Usuario?,_ valorAluguel: Float?,_ vagaDestino: String?,_ descricaoPessoal: String?)
+    {
         // redirect to superclass Imovel
         super.init(tipoDoImovel, endereco, dono, valorAluguel)
         // initialization atributes ImovelQuarto
-        self.sexo = sexo
+        self.vagaDestino = vagaDestino
         self.descricaoPessoal = descricaoPessoal
     }
-    
 }

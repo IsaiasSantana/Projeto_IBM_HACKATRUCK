@@ -8,6 +8,9 @@
 
 import Foundation
 
+/**
+ * Author Isaías Santana.
+ */
 class Usuario
 {
      var nome:String?

@@ -8,26 +8,28 @@
 
 import Foundation
 
+
+/**
+ *Classe que representa o endereço de onde o imóvel se encontra.
+ * @Author IsaíasSantana
+ */
 class Endereco
 {
-    var cep: String?
-    var estado: String?
-    var cidade: String?
-    var bairro: String?
-    var numero: Int?
-    var complemento: String?
-    
-    // É o local onde a pessoa mora, rua, avenida, etc...
-    var logradouro: String?
-    
-    init(_ complemento: String?,_ logradouro: String?,_ numero: Int?,_ bairro: String?,_ cidade: String?,_ estado: String?,_ cep: String? ) {
-        
-        self.complemento = complemento
-        self.logradouro = logradouro
-        self.numero = numero
-        self.bairro = bairro
-        self.cidade = cidade
+    var estado:String?
+    var cidade:String?
+    var bairro:String?
+    var cep:String?
+    var rua:String?
+    var numero:Int?
+    var complemento:String?
+    init(_ estado:String?,_ cidade:String?,_ bairro:String?,_ cep:String?,_ rua:String?,_ numero:Int?,_ complemento:String?)
+    {
         self.estado = estado
+        self.cidade = cidade
+        self.bairro = bairro
         self.cep = cep
+        self.rua = rua
+        self.numero = numero
     }
+    
 }

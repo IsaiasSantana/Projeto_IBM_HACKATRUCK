@@ -14,6 +14,7 @@
 		3F2C65211E5334D30001BCAD /* CadastroQuartoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2C65201E5334D30001BCAD /* CadastroQuartoViewController.swift */; };
 		3F3CE6951E51EB77001C22F0 /* ImovelCompleto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3CE6941E51EB77001C22F0 /* ImovelCompleto.swift */; };
 		3F3CE6971E51EB83001C22F0 /* ImovelQuarto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3CE6961E51EB83001C22F0 /* ImovelQuarto.swift */; };
+		3F4267151E546EC000DE7AAB /* ImovelDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4267141E546EC000DE7AAB /* ImovelDAO.swift */; };
 		3F42E03B1E51CEAC00A5EB31 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F42E03A1E51CEAC00A5EB31 /* Usuario.swift */; };
 		3F42E03D1E51D62600A5EB31 /* Imovel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F42E03C1E51D62600A5EB31 /* Imovel.swift */; };
 		3F42E03F1E51D7D600A5EB31 /* Endereco.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F42E03E1E51D7D600A5EB31 /* Endereco.swift */; };
@@ -32,6 +33,7 @@
 		3F2C65201E5334D30001BCAD /* CadastroQuartoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CadastroQuartoViewController.swift; sourceTree = "<group>"; };
 		3F3CE6941E51EB77001C22F0 /* ImovelCompleto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImovelCompleto.swift; sourceTree = "<group>"; };
 		3F3CE6961E51EB83001C22F0 /* ImovelQuarto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImovelQuarto.swift; sourceTree = "<group>"; };
+		3F4267141E546EC000DE7AAB /* ImovelDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImovelDAO.swift; sourceTree = "<group>"; };
 		3F42E03A1E51CEAC00A5EB31 /* Usuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
 		3F42E03C1E51D62600A5EB31 /* Imovel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Imovel.swift; sourceTree = "<group>"; };
 		3F42E03E1E51D7D600A5EB31 /* Endereco.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endereco.swift; sourceTree = "<group>"; };
@@ -55,6 +57,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F4267131E546E7000DE7AAB /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				3F4267141E546EC000DE7AAB /* ImovelDAO.swift */,
+			);
+			name = DAO;
+			sourceTree = "<group>";
+		};
 		3F42E0391E51CE7800A5EB31 /* model */ = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +96,7 @@
 		3F7F9AE11E4B52EA00D8A090 /* Aluguel */ = {
 			isa = PBXGroup;
 			children = (
+				3F4267131E546E7000DE7AAB /* DAO */,
 				3FFE26821E51E44C003D16F6 /* controll */,
 				3F42E0391E51CE7800A5EB31 /* model */,
 				3F7F9AE21E4B52EA00D8A090 /* AppDelegate.swift */,
@@ -191,6 +202,7 @@
 				3F42E03D1E51D62600A5EB31 /* Imovel.swift in Sources */,
 				3F3CE6971E51EB83001C22F0 /* ImovelQuarto.swift in Sources */,
 				3F1337F61E534C2900B0A655 /* AnunciosViewController.swift in Sources */,
+				3F4267151E546EC000DE7AAB /* ImovelDAO.swift in Sources */,
 				3F2C65211E5334D30001BCAD /* CadastroQuartoViewController.swift in Sources */,
 				3F3CE6951E51EB77001C22F0 /* ImovelCompleto.swift in Sources */,
 				3F4BD3FA1E51E8DD00E2EF0D /* CadastrarViewController.swift in Sources */,
