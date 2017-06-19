@@ -1,6 +1,4 @@
-# AlugueAI_IOS
-
-HackaTruck UFS 2017 
+# HackaTruck UFS 2017 
 
 Equipe : Alkxyly Samyr 
          Isaías Santana
